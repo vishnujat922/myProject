@@ -6,11 +6,13 @@ import './App.css';
 
 //1.2 Import someDefaultImport from somelocation/ somelibrary;
 import CompA from './Components/CompA';
+import CompB from './CompB';
 function App() {
   return (
     <div className="App">
       <CompA address="From Neemuch"/>
       <CompA address="From Manasa near Village Pawati"/>
+      <CompB/ >
     </div>
   );
 }
